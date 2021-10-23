@@ -25,6 +25,6 @@ md5sums=('SKIP')
 #}
 
 package() {
-  cd $pkgname-$pkgver
+  cd $pkgname
   make DESTDIR="$pkgdir" install
 }
